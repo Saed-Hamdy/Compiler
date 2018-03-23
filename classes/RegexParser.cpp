@@ -31,7 +31,7 @@ std::string ReplaceAll(std::string str, const std::string& from,
 	return str;
 }
 
-void RegexParser::parse_rules() {
+NFA RegexParser::parse_rules() {
 
 	Reader R1;
 	R1.readFiletoLines("input.txt");
@@ -80,6 +80,8 @@ void RegexParser::parse_rules() {
 		}
 
 	}
+	p.collect();
+	return p.get_NFA();
 
 }
 
@@ -109,32 +111,32 @@ vector<string> get_strings(string line) {
 	return words;
 }
 
-void regular_definitions(string name, string def) {
+void RegexParser::regular_definitions(string name, string def) {
 
 	def = preprocessing(def);
 	cout << name + "=" + def + "	RD" << endl;
 	vector<string> words = get_strings(def);
+	p.regular_definitions(name, words);
 
 }
-void regular_expressions(string name, string exp) {
+void RegexParser::regular_expressions(string name, string exp) {
 
 	exp = preprocessing(exp);
 	cout << name + ":" + exp + "	Re" << endl;
 	vector<string> words = get_strings(exp);
+	p.regular_expressions(name, words);
 }
 
-void Keyword(string line) {
+void RegexParser::Keyword(string line) {
 	line = line.substr(1, line.size() - 3);
 	cout << line + "	key" << endl;
 	vector<string> words = get_strings(line);
-	//keywords_to_nfa(words);
-
+	p.Keyword(words);
 }
-void Punctuation(string line) {
+void RegexParser::Punctuation(string line) {
 
 	line = line.substr(1, line.size() - 3);
 	vector<string> words = get_strings(line);
 	cout << line + "	pu" << endl;
-	//punctuation_to_nfa(words);
-
+	p.Punctuation(words);
 }

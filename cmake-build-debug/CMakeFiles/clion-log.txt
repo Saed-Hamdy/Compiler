@@ -1,0 +1,4 @@
+/media/arsanuos/42096389-e9a4-4305-beb5-98c32730190b/programs/Clion/clion-2017.3.4/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/arsanuos/eclipse-workspace/Compiler
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug

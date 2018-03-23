@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Compiler"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Compiler">
+				<Option output="/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Compiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compiler"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Compiler/fast">
+				<Option output="/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Compiler" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 Compiler/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/arsanuos/eclipse-workspace/Compiler/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/Compiler.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/Construction.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/DFA.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/Evaluator.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/Generator.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/NFA.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/Node.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/OperationHandler.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/PostfixInfix.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/Reader2.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/RegexParser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/classes/Transition.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/Construction.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/DFA.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/Evaluator.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/Generator.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/NFA.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/Node.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/OperationHandler.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/PostfixInfix.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/Reader2.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/RegexParser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/headers/Transition.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/home/arsanuos/eclipse-workspace/Compiler/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

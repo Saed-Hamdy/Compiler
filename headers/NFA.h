@@ -11,7 +11,12 @@
 class NFA {
 
 public:
-    const vector<Node> &getNfaTable() const;
+    vector<Node> getNfaTable();
+    void setNfaTable(vector<Node>);
+    Node &getStartNode();
+    Node &getEndNode();
+    void addNode(Node n);
+    Node &getNode(int i);
 
 private:
     vector<Node> nfaTable;

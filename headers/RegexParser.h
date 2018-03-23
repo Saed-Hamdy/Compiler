@@ -10,17 +10,23 @@
 
 #include <bits/stdc++.h>
 #include "Reader2.h"
+#include "../headers/PostfixInfix.h"
 
 using namespace std;
 
 
 class RegexParser {
+
+private:
+	PostfixInfix p;
 public:
 	RegexParser();
-	void parse_rules();
-
-
+	NFA parse_rules();
 	virtual ~RegexParser();
+	void regular_definitions(string name, string def);
+	void regular_expressions(string name, string exp);
+	void Keyword(string line);
+	void Punctuation(string line);
 
 };
 

@@ -103,7 +103,6 @@ vector <char> Reader:: readStringtoCharacters(string line)
 int main1()
 {
     Reader R1 ;
-
     R1.readFiletoLines("input.txt");
 
     vector <string> ans  = R1.readingLines;
